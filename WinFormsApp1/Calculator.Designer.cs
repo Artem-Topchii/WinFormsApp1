@@ -1,5 +1,4 @@
-﻿
-namespace WinFormsApp1
+﻿namespace WinFormsApp1
 {
     partial class Calculator
     {
@@ -44,8 +43,6 @@ namespace WinFormsApp1
             this.labelEquation = new System.Windows.Forms.Label();
             this.labelResult = new System.Windows.Forms.Label();
             this.buttonCalculate = new System.Windows.Forms.Button();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -236,19 +233,11 @@ namespace WinFormsApp1
             this.buttonCalculate.TextAlign = System.Drawing.ContentAlignment.TopRight;
             this.buttonCalculate.UseVisualStyleBackColor = true;
             // 
-            // numericUpDown1
-            // 
-            this.numericUpDown1.Location = new System.Drawing.Point(461, 330);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(120, 23);
-            this.numericUpDown1.TabIndex = 25;
-            // 
             // Calculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.labelResult);
             this.Controls.Add(this.labelEquation);
             this.Controls.Add(this.buttonCalculate);
@@ -266,7 +255,6 @@ namespace WinFormsApp1
             this.Controls.Add(this.button1);
             this.Name = "Calculator";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -288,7 +276,7 @@ namespace WinFormsApp1
         private System.Windows.Forms.Label labelEquation;
         private System.Windows.Forms.Label labelResult;
         private System.Windows.Forms.Button buttonCalculate;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
     }
 }
+
 
